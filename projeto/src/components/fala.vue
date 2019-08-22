@@ -1,24 +1,32 @@
 <template>
-  <h1>{{ falas[flag] }}</h1>
+  <div>
+    <keep-alive>
+			<component :is="componente[flag]"/>
+		</keep-alive>	
+  </div>
 </template>
 
 <script>
+import Idade from './idade.vue'
+import Sexo from './sexo.vue'
+import FalaUm from './fala(1).vue'
+import FalaDois from './fala(2).vue'
+import FalaTres from './fala(3).vue'
+import FalaQuatro from './fala(4).vue'
+import FalaCinco from './fala(5).vue'
+
 export default {
+  components: {Idade, Sexo, FalaUm, FalaDois, FalaTres, FalaQuatro, FalaCinco},
   data() {
     return {
-      falas: ["Olá, O meu nome é Enzo!",
-              "Tenho 9 anos, nasci na cidade de Rio Tinto, na Universidade Federal da Paraíba - Campus IV.",
-              "Eu gosto muito das cores, porque elas conseguem transmitir sentimentos.",
-              "Agora eu quero conhecer mais sobre você.",
-             "Agora, iremos tentar expressar o que sentimos com as cores que iremos ver."
-             ]
+      componente: ['FalaUm','FalaDois', 'FalaTres','FalaQuatro','FalaCinco','Idade', 'Sexo']
     };
   },
   computed: {
     flag() {
       return this.$store.state.flag
     }
-  }
+  },
 };
 </script>
 

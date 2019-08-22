@@ -1,5 +1,7 @@
 <template>
-    
+    <div>
+        <h1>Idade</h1>
+    </div>
 </template>
 
 <script>
