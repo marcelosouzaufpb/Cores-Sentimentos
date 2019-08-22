@@ -1,7 +1,7 @@
 <template>
   <div id="balao">
     <fala></fala>
-    <button class="btn btn-primary" type="submit">Button</button>
+    <button class="btn btn-primary" type="submit" @click="transitar()">Button</button>
   </div>
 </template>
 
@@ -11,6 +11,17 @@ export default {
   name: "Balao",
   components: {
     fala
+  },
+  data() {
+    return {
+      count: 0
+    }
+  },
+  methods: {
+    transitar() {
+      this.count += 1;
+      this.$store.state.flag = this.count;
+    }
   }
 };
 </script>
