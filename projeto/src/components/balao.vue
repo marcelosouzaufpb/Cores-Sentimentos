@@ -1,7 +1,13 @@
 <template>
   <div id="balao">
-    <fala></fala>
-    <button class="btn btn-primary" type="submit" @click="transitar()">Button</button>
+    <div class="container-fluid">
+      <div class="row">
+        <fala></fala>
+      </div>
+      <div class="row">
+        <button class="btn btn-primary" type="submit" @click="transitar()">Button</button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,7 +21,7 @@ export default {
   data() {
     return {
       count: 0
-    }
+    };
   },
   methods: {
     transitar() {
@@ -28,11 +34,11 @@ export default {
 
 
 <style>
+
+
 #balao {
   width: 400px;
   height: 300px;
   border: 1px solid black;
-  border-radius: 100%;
-  padding: 5%;
 }
 </style>

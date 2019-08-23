@@ -1,13 +1,11 @@
 <template>
-    <h1>Olá, O meu nome é Enzo!</h1>
+    <h1>vermelhor</h1>
 </template>
-
 <script>
 export default {
     
 }
 </script>
-
-<style scoped>
-
+<style >
+    
 </style>
