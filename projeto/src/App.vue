@@ -1,7 +1,9 @@
 <template>
-  <div class="container-fluid mx-auto" id="app">
-    <balao></balao>
-  </div>
+  <body>
+    <div class="container-fluid mx-auto" id="app">
+      <balao></balao>
+    </div>
+  </body>
 </template>
 
 <script>
@@ -11,6 +13,10 @@ export default {
   name: "app",
   components: {
     balao
+  },
+  data(){
+    return{
+    }
   }
 };
 </script>

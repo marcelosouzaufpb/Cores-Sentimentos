@@ -1,23 +1,14 @@
 <template>
   <div id="balao">
     <div class="container-fluid">
-      <div class="row">
-        <fala></fala>
-      </div>
-      <div class="row">
-        <button class="btn btn-primary" type="submit" @click="transitar()">Button</button>
-      </div>
+      <router-view />
     </div>
   </div>
 </template>
 
 <script>
-import fala from "./fala.vue";
 export default {
   name: "Balao",
-  components: {
-    fala
-  },
   data() {
     return {
       count: 0

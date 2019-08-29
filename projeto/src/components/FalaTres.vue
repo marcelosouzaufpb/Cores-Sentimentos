@@ -1,5 +1,6 @@
 <template>
-    <h1>Olá, O meu nome é Enzo!</h1>
+    <h1>Eu gosto muito das cores, porque elas conseguem transmitir sentimentos.</h1>
+    
 </template>
 
 <script>
