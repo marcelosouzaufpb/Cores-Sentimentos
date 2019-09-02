@@ -6,6 +6,7 @@ import Fala1 from './components/FalaUm.vue'
 import FalaDois from './components/FalaDois.vue'
 import FalaTres from './components/FalaTres.vue'
 import FalaQuatro from './components/FalaQuatro.vue'
+import FalaCinco from './components/FalaCinco.vue'
 import Idade from './components/Idade.vue'
 import Sexo from './components/Sexo.vue'
 import Vermelho from './components/Vermelho.vue'
@@ -32,19 +33,23 @@ export default new VueRouter({
         path: '/falaQuatro',
         component: FalaQuatro
     },{
+
+        path: '/falaCinco',
+        component: FalaCinco
+    },{
         path: '/idade',
         component: Idade
     },{
         path: '/sexo',
         component: Sexo
     },{
-        path: '/vermelho',
+        path: '/Vermelho',
         component: Vermelho
     },{
-        path: '/verde',
+        path: '/Verde',
         component: Verde
     },{
-        path: '/azul',
+        path: '/Azul',
         component: Azul
     }]
 })

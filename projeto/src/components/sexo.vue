@@ -4,17 +4,34 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked/>
+          <input
+            class="form-check-input"
+            type="radio"
+            name="exampleRadios"
+            id="exampleRadios1"
+            value="option1"
+            checked
+          />
           <label class="form-check-label" for="exampleRadios1">Masculino</label>
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked/>
+          <input
+            class="form-check-input"
+            type="radio"
+            name="exampleRadios"
+            id="exampleRadios1"
+            value="option1"
+            checked
+          />
           <label class="form-check-label" for="exampleRadios1">Feminino</label>
         </div>
       </div>
     </div>
+    <router-link to="/FalaCinco">
+      <button>Seguinte</button>
+    </router-link>
   </div>
 </template>
 

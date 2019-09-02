@@ -38,6 +38,4 @@
     background-size: 200px;
     }
 }
-
-
 </style>

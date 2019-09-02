@@ -1,11 +1,17 @@
 <template>
-    <h1>vermelhor</h1>
+  <div id="vermelho">
+    <router-link to="/Verde">
+      <button>Seguinte</button>
+    </router-link>
+  </div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
-<style >
-    
+<style scoped>
+#vermelho {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+}
 </style>
