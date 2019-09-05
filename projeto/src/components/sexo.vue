@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-    <router-link to="/FalaCinco">
+    <router-link to="/CorPreferida">
       <button>Seguinte</button>
     </router-link>
   </div>

@@ -7,11 +7,13 @@ import FalaDois from './components/FalaDois.vue'
 import FalaTres from './components/FalaTres.vue'
 import FalaQuatro from './components/FalaQuatro.vue'
 import FalaCinco from './components/FalaCinco.vue'
+import FalaFinal from './components/FalaFinal.vue'
 import Idade from './components/Idade.vue'
 import Sexo from './components/Sexo.vue'
 import Vermelho from './components/Vermelho.vue'
 import Verde from './components/Verde.vue'
 import Azul from './components/Azul.vue'
+import CorPreferida from './components/CorPreferida.vue'
 
 
 Vue.use(VueRouter)
@@ -37,6 +39,9 @@ export default new VueRouter({
         path: '/falaCinco',
         component: FalaCinco
     },{
+        path: '/falaFinal',
+        component: FalaFinal
+    },{
         path: '/idade',
         component: Idade
     },{
@@ -51,6 +56,9 @@ export default new VueRouter({
     },{
         path: '/Azul',
         component: Azul
+    },{
+        path: '/CorPreferida',
+        component: CorPreferida
     }]
 })
 
