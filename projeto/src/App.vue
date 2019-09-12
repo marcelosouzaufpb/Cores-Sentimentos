@@ -13,4 +13,11 @@ export default {
 </script>
 
 <style>
+body {
+   font-family: Modak;
+}
+
+.btn {
+  font-family: Montserrat;
+}
 </style>

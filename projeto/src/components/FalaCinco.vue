@@ -10,7 +10,7 @@
     </div>
     <div class="row">
       <router-link to="/Vermelho">
-        <button type="button" class="btn btn-outline-primary pr-5 pl-5">Seguinte</button>
+        <button type="button" class="btn btn-secondary  pr-5 pl-5">Seguinte</button>
       </router-link>
     </div>
   </div>
@@ -38,17 +38,18 @@ export default {
 }
 
 #fala {
-  text-align: end;
-  justify-content: end;
-  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.16);;
   border-radius: 50%;
-  height: 150px;
-  padding-top: 5%;
-  padding-bottom: 2%;
+  height: 60%;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.16);
 }
 
 #fala h1 {
-  font-size: 15px;
+  font-size: 30px;
   text-align: center;
 }
 

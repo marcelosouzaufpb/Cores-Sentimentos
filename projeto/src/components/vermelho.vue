@@ -10,42 +10,77 @@
             <h1>O que você consegue sentir olhando esse cenário?</h1>
           </div>
           <div class="row pl-5 pr-5" id="formes">
-            <div class="row m-4">
+            <div class="row m-4" id="marcar">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value id="defaultCheck1" />
-                <label class="form-check-label" for="defaultCheck1">Paixão</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="Paixao"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="Paixao">Paixão</label>
               </div>
             </div>
-            <div class="row m-4">
+            <div class="row m-4" id="marcar">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value id="defaultCheck1" />
-                <label class="form-check-label" for="defaultCheck1">Calma</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="Calma"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="Calma">Calma</label>
               </div>
             </div>
-            <div class="row m-4">
+            <div class="row m-4" id="marcar">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value id="defaultCheck1" />
-                <label class="form-check-label" for="defaultCheck1">Energia</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="Energia"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="Energia">Energia</label>
               </div>
             </div>
-            <div class="row m-4">
+            <div class="row m-4" id="marcar">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value id="defaultCheck1" />
-                <label class="form-check-label" for="defaultCheck1">Guerra</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="Guerra"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="Guerra">Guerra</label>
               </div>
             </div>
-            <div class="row m-4">
+            <div class="row m-4" id="marcar">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value id="defaultCheck1" />
-                <label class="form-check-label" for="defaultCheck1">Agitação</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="Agitação"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="Agitação">Agitação</label>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-5">
         <router-link to="/Verde">
-          <button type="button" class="btn btn-outline-primary pr-5 pl-5">Seguinte</button>
+          <button type="button" class="btn btn-secondary  pr-5 pl-5">Seguinte</button>
         </router-link>
       </div>
     </div>
@@ -82,15 +117,17 @@ export default {
 #fala {
   text-align: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 50%;
   height: 20%;
-  padding-top: 5%;
+  padding-top: 7%;
   padding-bottom: 2%;
+  
 }
 
 #fala h1 {
-  font-size: 15px;
+  font-size:20px;
   text-align: center;
 }
 
@@ -100,8 +137,17 @@ export default {
 }
 
 #formes {
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 30px;
   padding: 0;
+}
+
+#marcar {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.16);
+  padding: 5px;
+  border-radius: 30px;
+  width: 100%;
 }
 </style>

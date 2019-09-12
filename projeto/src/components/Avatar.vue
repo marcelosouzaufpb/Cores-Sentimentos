@@ -17,8 +17,9 @@
   background: url(img/1.png);
   background-size: 200px;
   animation-name: run;
-  animation-duration: 750ms;
-  animation-iteration-count: 7;
+  animation-duration: 650ms;
+  animation-iteration-count: 3;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 @keyframes run {
   0% {
