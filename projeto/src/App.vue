@@ -1,31 +1,16 @@
 <template>
-  <body>
-    <div id="app">
-      <balao></balao>
-    </div>
-  </body>
+<body>
+  <div class="container-fluid" id="app">
+    <router-view />
+  </div>
+</body>
 </template>
 
 <script>
-import balao from "./components/Balao.vue";
-
-
 export default {
-  name: "app",
-  components: {
-    balao
-  },
-  data(){
-    return{
-    }
-  }
+  name: "app"
 };
 </script>
 
 <style>
-  body {
-    width: 100%;
-    height: 100%;
-  }
-
 </style>

@@ -26,7 +26,7 @@
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value id="defaultCheck1" />
         <label class="form-check-label" for="defaultCheck1">Agitação</label>
-      </div>
+      </div>cd
       <br />
     </div>
     <router-link to="/FalaFinal">

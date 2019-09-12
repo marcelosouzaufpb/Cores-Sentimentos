@@ -1,12 +1,17 @@
 <template>
-  <div>
-    <h1>Olá, O meu nome é Enzo!</h1>
-    <router-link to="/FalaDois">
-      <button>Seguinte</button>
-    </router-link>
-
+  <div class="container p-5">
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <avatar></avatar>
+      </div>
+      <div class="col-md-6" id="fala">
+        <h1>Olá, O meu nome é Enzo!</h1>
+      </div>
+    </div>
     <div class="row">
-      <avatar></avatar>
+      <router-link to="/FalaDois">
+        <button type="button" class="btn btn-outline-primary pr-5 pl-5">Seguinte</button>
+      </router-link>
     </div>
   </div>
 </template>
@@ -22,4 +27,33 @@ export default {
 </script>
 
 <style scoped>
+.row {
+  justify-content: center;
+  text-align: center;
+}
+
+.col-md-6 {
+  justify-content: center;
+  text-align: center;
+}
+
+#fala {
+  text-align: end;
+  justify-content: end;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#fala h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+}
 </style>
