@@ -54,7 +54,7 @@ export default {
   border: 1px solid black;
   border-radius: 50%;
   height: 35%;
-  padding-top: 2%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 

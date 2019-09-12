@@ -42,13 +42,13 @@ export default {
   justify-content: end;
   border: 1px solid black;
   border-radius: 50%;
-  height: 5%;
-  padding-top: 2%;
+  height: 150px;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
 #fala h1 {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
 
